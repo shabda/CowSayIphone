@@ -23,17 +23,17 @@
 #import "cowsaysViewController.h"
 
 @interface NSString (Extended)
--(NSString *) withCow: (NSString *) thought;
--(NSString *) normalizeString: (NSString* ) strin;
+-(NSString *) withCow;
+-(NSString *) normalizeString;
 @end
 
 @implementation NSString (Extended)
--(NSString *) normalizeString: (NSString* ) strin{
+-(NSString *) normalizeString{
     int max_length = 40;
     //NSLog(@"%@", max_length);
-    int strn_count = [strin length];
+    int strn_count = [self length];
     if (strn_count < max_length){
-        return [NSArray arrayWithObject: strin];
+        return [NSArray arrayWithObject: self];
     }
     NSMutableArray* strings = [NSMutableArray arrayWithCapacity: 10];
     int elem = strn_count/max_length+1;
@@ -41,13 +41,13 @@
     for (i = 0; i < elem-1; i++){
         NSRange range = NSMakeRange(i*max_length, max_length);
         NSLog(@"%d", i);
-        NSString* subs = [strin substringWithRange: range];
+        NSString* subs = [self substringWithRange: range];
         [strings addObject: subs];
     }
     int last = strn_count - i * max_length;
     NSRange range = NSMakeRange(i*max_length, last);
     
-    NSString* last_strn = [strin substringWithRange: range];
+    NSString* last_strn = [self substringWithRange: range];
     last_strn = [last_strn stringByPaddingToLength: max_length withString: @" " startingAtIndex: 0];
     [strings addObject: last_strn];
     
@@ -72,10 +72,10 @@
     
 }
 
--(NSString *) withCow: (NSString *) thought
+-(NSString *) withCow
 {
     NSString *cow = @" ________________________________________\n"
-    @"%@"
+    @"%@\n"
     @" ----------------------------------------\n"
     @"        \\   ^__^\n"
     @"         \\  (oo)\\_______\n"
@@ -83,7 +83,7 @@
     @"                ||----w |\n"
     @"                ||     ||\n";
     
-    thought = [thought normalizeString: thought];
+    NSString* thought = [self normalizeString];
     cow = [NSString stringWithFormat: cow, thought];
     return cow;
 }
@@ -107,13 +107,14 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    withCow.text = [original.text withCow];
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -133,8 +134,7 @@
 }
 
 - (IBAction)cowSay:(id)sender {
-    withCow.text = [withCow.text withCow: original.text];
-    [withCow.text normalizeString:original.text];
+    withCow.text = [original.text withCow];
     [original resignFirstResponder];
 }
 - (void)dealloc {
