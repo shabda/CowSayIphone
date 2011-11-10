@@ -23,14 +23,14 @@
 		42E70B4C146BFE00009404D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		42E70B4E146BFE00009404D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42E70B50146BFE00009404D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		42E70B54146BFE00009404D0 /* cowsays-Info.plist */ = {isa = PBXFileReference; path = "cowsays-Info.plist"; sourceTree = "<group>"; };
+		42E70B54146BFE00009404D0 /* cowsays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cowsays-Info.plist"; sourceTree = "<group>"; };
 		42E70B56146BFE00009404D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42E70B58146BFE00009404D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		42E70B5A146BFE00009404D0 /* cowsays-Prefix.pch */ = {isa = PBXFileReference; path = "cowsays-Prefix.pch"; sourceTree = "<group>"; };
-		42E70B5B146BFE00009404D0 /* cowsaysAppDelegate.h */ = {isa = PBXFileReference; path = cowsaysAppDelegate.h; sourceTree = "<group>"; };
+		42E70B5A146BFE00009404D0 /* cowsays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cowsays-Prefix.pch"; sourceTree = "<group>"; };
+		42E70B5B146BFE00009404D0 /* cowsaysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cowsaysAppDelegate.h; sourceTree = "<group>"; };
 		42E70B5C146BFE00009404D0 /* cowsaysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cowsaysAppDelegate.m; sourceTree = "<group>"; };
 		42E70B5F146BFE00009404D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		42E70B61146BFE00009404D0 /* cowsaysViewController.h */ = {isa = PBXFileReference; path = cowsaysViewController.h; sourceTree = "<group>"; };
+		42E70B61146BFE00009404D0 /* cowsaysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cowsaysViewController.h; sourceTree = "<group>"; };
 		42E70B62146BFE00009404D0 /* cowsaysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cowsaysViewController.m; sourceTree = "<group>"; };
 		42E70B65146BFE00009404D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/cowsaysViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */

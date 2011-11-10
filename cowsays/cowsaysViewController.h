@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface cowsaysViewController : UIViewController
+@interface cowsaysViewController : UIViewController {
+    UITextView *original;
+    UITextView *withCow;
+}
+
+
+- (IBAction)cowSay:(id)sender;
+@property (nonatomic, retain) IBOutlet UITextView *original;
+@property (nonatomic, retain) IBOutlet UITextView *withCow;
 
 @end
