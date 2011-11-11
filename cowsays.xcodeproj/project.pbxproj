@@ -16,6 +16,8 @@
 		42E70B60146BFE00009404D0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E70B5E146BFE00009404D0 /* MainWindow.xib */; };
 		42E70B63146BFE00009404D0 /* cowsaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E70B62146BFE00009404D0 /* cowsaysViewController.m */; };
 		42E70B66146BFE00009404D0 /* cowsaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E70B64146BFE00009404D0 /* cowsaysViewController.xib */; };
+		42E70B6D146D5A5F009404D0 /* cow-say-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E70B6C146D5A5F009404D0 /* cow-say-57.png */; };
+		42E70B6F146D5A68009404D0 /* cowsay114.png in Resources */ = {isa = PBXBuildFile; fileRef = 42E70B6E146D5A68009404D0 /* cowsay114.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		42E70B61146BFE00009404D0 /* cowsaysViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cowsaysViewController.h; sourceTree = "<group>"; };
 		42E70B62146BFE00009404D0 /* cowsaysViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cowsaysViewController.m; sourceTree = "<group>"; };
 		42E70B65146BFE00009404D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/cowsaysViewController.xib; sourceTree = "<group>"; };
+		42E70B6C146D5A5F009404D0 /* cow-say-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cow-say-57.png"; sourceTree = "<group>"; };
+		42E70B6E146D5A68009404D0 /* cowsay114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cowsay114.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		42E70B3D146BFDFF009404D0 = {
 			isa = PBXGroup;
 			children = (
+				42E70B6E146D5A68009404D0 /* cowsay114.png */,
+				42E70B6C146D5A5F009404D0 /* cow-say-57.png */,
 				42E70B52146BFE00009404D0 /* cowsays */,
 				42E70B4B146BFE00009404D0 /* Frameworks */,
 				42E70B49146BFE00009404D0 /* Products */,
@@ -154,6 +160,8 @@
 				42E70B57146BFE00009404D0 /* InfoPlist.strings in Resources */,
 				42E70B60146BFE00009404D0 /* MainWindow.xib in Resources */,
 				42E70B66146BFE00009404D0 /* cowsaysViewController.xib in Resources */,
+				42E70B6D146D5A5F009404D0 /* cow-say-57.png in Resources */,
+				42E70B6F146D5A68009404D0 /* cowsay114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +257,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cowsays/cowsays-Prefix.pch";
 				INFOPLIST_FILE = "cowsays/cowsays-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,6 +269,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cowsays/cowsays-Prefix.pch";
 				INFOPLIST_FILE = "cowsays/cowsays-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
