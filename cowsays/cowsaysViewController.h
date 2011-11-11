@@ -13,8 +13,9 @@
     UITextView *withCow;
 }
 
-
+- (IBAction)tuxSay:(id)sender;
 - (IBAction)cowSay:(id)sender;
+
 @property (nonatomic, retain) IBOutlet UITextView *original;
 @property (nonatomic, retain) IBOutlet UITextView *withCow;
 

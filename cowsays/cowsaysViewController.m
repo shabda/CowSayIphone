@@ -24,6 +24,7 @@
 
 @interface NSString (Extended)
 -(NSString *) withCow;
+-(NSString *) withTux;
 -(NSString *) normalizeString;
 @end
 
@@ -87,6 +88,24 @@
     cow = [NSString stringWithFormat: cow, thought];
     return cow;
 }
+-(NSString*) withTux{
+    NSString *tux =   @""
+    @"-----------------------------------------\n"
+    @"%@\n"
+    @"-----------------------------------------\n"
+    @"  \\\\\n"
+    @"   \\\\\n"
+    @"       .--.\n"
+    @"      |o_o |\n"
+    @"      |:_/ |\n"
+    @"     //   \\\\ \\\\\n"
+    @"    (|     | )\n"
+    @"   /'\\\\_   _/`\\\\\n"
+    @"   \\\\___)=(___/\n";
+    NSString* thought = [self normalizeString];
+    tux = [NSString stringWithFormat: tux, thought];
+    return tux;
+}
 
 @end
 
@@ -131,6 +150,13 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+
+- (IBAction)tuxSay:(id)sender {
+    withCow.text = [original.text withTux];
+    [original resignFirstResponder];
+
 }
 
 - (IBAction)cowSay:(id)sender {
