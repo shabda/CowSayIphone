@@ -21,6 +21,7 @@
  */
 
 #import "cowsaysViewController.h"
+#include <stdlib.h>
 
 @interface NSString (Extended)
 -(NSString *) withCow;
@@ -162,6 +163,33 @@
 - (IBAction)cowSay:(id)sender {
     withCow.text = [original.text withCow];
     [original resignFirstResponder];
+}
+
+- (IBAction)randomSay:(id)sender {
+    NSArray *list=[[NSArray alloc] 
+                   initWithObjects:@"Do not argue with an idiot. He will drag you down to his level and beat you with experience.",
+                                @"I want to die peacefully in my sleep, like my grandfather.. Not screaming and yelling like the passengers in his car.",
+                                @"I asked God for a bike, but I know God doesn't work that way. So I stole a bike and asked for forgiveness.",
+                                @"We live in a society where pizza gets to your house before the police.",
+                                @"The last thing I want to do is hurt you. But it's still on the list.",
+                                @"If I agreed with you we'd both be wrong.",
+                                @"Children: You spend the first 2 years of their life teaching them to walk and talk. Then you spend the next 16 years telling them to sit down and shut-up.",
+                                
+                   nil];
+    int r = arc4random() % [list count];
+    NSString* thought = [list objectAtIndex:r];
+    original.text = thought;
+    int tux_or_cow = arc4random() % 2;
+    if (tux_or_cow){
+        withCow.text = [original.text withCow];
+    }
+    else{
+        withCow.text = [original.text withTux];
+    }
+    
+    
+    
+    
 }
 - (void)dealloc {
     [original release];

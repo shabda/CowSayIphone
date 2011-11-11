@@ -43,14 +43,14 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUITextView" id="878499617">
+					<object class="IBUITextView" id="483110681">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 12}, {320, 96}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="839358633"/>
-						<object class="NSColor" key="IBUIBackgroundColor" id="256620878">
+						<reference key="NSNextKeyView" ref="512914629"/>
+						<object class="NSColor" key="IBUIBackgroundColor" id="646006664">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MSAxIDEAA</bytes>
 						</object>
@@ -68,14 +68,14 @@
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 					</object>
-					<object class="IBUITextView" id="793727209">
+					<object class="IBUITextView" id="730498721">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 164}, {320, 296}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
-						<reference key="IBUIBackgroundColor" ref="256620878"/>
+						<reference key="IBUIBackgroundColor" ref="646006664"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -95,13 +95,13 @@ IHx8ICAgICB8fA</string>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						</object>
 					</object>
-					<object class="IBUIButton" id="839358633">
+					<object class="IBUIButton" id="512914629">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 116}, {126, 37}}</string>
+						<string key="NSFrame">{{20, 116}, {78, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="793727209"/>
+						<reference key="NSNextKeyView" ref="730498721"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
 							<string key="IBUIAccessibilityLabel">Cow Says</string>
@@ -110,14 +110,14 @@ IHx8ICAgICB8fA</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont" id="1029984123">
+						<object class="NSFont" key="IBUIFont" id="445832312">
 							<string key="NSName">Helvetica-Bold</string>
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
 						<string key="IBUINormalTitle">Cow Say</string>
-						<object class="NSColor" key="IBUIHighlightedTitleColor" id="864113900">
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="880697005">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
@@ -125,15 +125,15 @@ IHx8ICAgICB8fA</string>
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="687049266">
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="225974532">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
 					</object>
-					<object class="IBUIButton" id="898847708">
+					<object class="IBUIButton" id="193047547">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{180, 116}, {126, 37}}</string>
+						<string key="NSFrame">{{214, 116}, {80, 37}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -144,21 +144,45 @@ IHx8ICAgICB8fA</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<reference key="IBUIFont" ref="1029984123"/>
+						<reference key="IBUIFont" ref="445832312"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Tux Say</string>
-						<reference key="IBUIHighlightedTitleColor" ref="864113900"/>
+						<string key="IBUINormalTitle">Random</string>
+						<reference key="IBUIHighlightedTitleColor" ref="880697005"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="687049266"/>
+						<reference key="IBUINormalTitleShadowColor" ref="225974532"/>
+					</object>
+					<object class="IBUIButton" id="146691606">
+						<reference key="NSNextResponder" ref="774585933"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{111, 116}, {80, 37}}</string>
+						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
+							<string key="IBUIAccessibilityLabel">Cow Says</string>
+							<integer value="1" key="IBUIAccessibilityTraits"/>
+						</object>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUIFont" ref="445832312"/>
+						<int key="IBUIButtonType">1</int>
+						<string key="IBUINormalTitle">Tux Say</string>
+						<reference key="IBUIHighlightedTitleColor" ref="880697005"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="225974532"/>
 					</object>
 				</object>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView" ref="878499617"/>
+				<reference key="NSNextKeyView" ref="483110681"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MC43NQA</bytes>
@@ -185,7 +209,7 @@ IHx8ICAgICB8fA</string>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">cowSay:</string>
-						<reference key="source" ref="839358633"/>
+						<reference key="source" ref="512914629"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
@@ -195,7 +219,7 @@ IHx8ICAgICB8fA</string>
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">original</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="878499617"/>
+						<reference key="destination" ref="483110681"/>
 					</object>
 					<int key="connectionID">12</int>
 				</object>
@@ -203,18 +227,27 @@ IHx8ICAgICB8fA</string>
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">withCow</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="793727209"/>
+						<reference key="destination" ref="730498721"/>
 					</object>
 					<int key="connectionID">14</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">tuxSay:</string>
-						<reference key="source" ref="898847708"/>
+						<reference key="source" ref="146691606"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">18</int>
+					<int key="connectionID">20</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">randomSay:</string>
+						<reference key="source" ref="193047547"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">21</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -242,31 +275,37 @@ IHx8ICAgICB8fA</string>
 						<reference key="object" ref="774585933"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="878499617"/>
-							<reference ref="793727209"/>
-							<reference ref="898847708"/>
-							<reference ref="839358633"/>
+							<reference ref="483110681"/>
+							<reference ref="730498721"/>
+							<reference ref="512914629"/>
+							<reference ref="146691606"/>
+							<reference ref="193047547"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="878499617"/>
+						<reference key="object" ref="483110681"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="793727209"/>
+						<reference key="object" ref="730498721"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="839358633"/>
+						<reference key="object" ref="512914629"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">15</int>
-						<reference key="object" ref="898847708"/>
+						<reference key="object" ref="193047547"/>
+						<reference key="parent" ref="774585933"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">19</int>
+						<reference key="object" ref="146691606"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</object>
@@ -281,6 +320,7 @@ IHx8ICAgICB8fA</string>
 					<string>-2.IBPluginDependency</string>
 					<string>10.IBPluginDependency</string>
 					<string>15.IBPluginDependency</string>
+					<string>19.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>8.IBPluginDependency</string>
 					<string>9.IBPluginDependency</string>
@@ -290,6 +330,7 @@ IHx8ICAgICB8fA</string>
 					<string>cowsaysViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>UIResponder</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -310,7 +351,7 @@ IHx8ICAgICB8fA</string>
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">21</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -323,10 +364,12 @@ IHx8ICAgICB8fA</string>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>cowSay:</string>
+							<string>randomSay:</string>
 							<string>tuxSay:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 						</object>
@@ -336,12 +379,17 @@ IHx8ICAgICB8fA</string>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>cowSay:</string>
+							<string>randomSay:</string>
 							<string>tuxSay:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<object class="IBActionInfo">
 								<string key="name">cowSay:</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">randomSay:</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBActionInfo">

@@ -15,6 +15,7 @@
 
 - (IBAction)tuxSay:(id)sender;
 - (IBAction)cowSay:(id)sender;
+- (IBAction)randomSay:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UITextView *original;
 @property (nonatomic, retain) IBOutlet UITextView *withCow;
